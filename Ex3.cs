@@ -9,10 +9,10 @@ class Ex3
         // Solicita ao usuário que escolha dois números diferentes de zero
         while (num1 == 0 || num2 == 0)
         {
-            Console.WriteLine("Escolha uma o primeiro número:");
+            Console.WriteLine("Escolha o primeiro número:");
             num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Escolha uma o segundo número:");
+            Console.WriteLine("Escolha o segundo número:");
             num2 = int.Parse(Console.ReadLine());
 
             // Verifica se algum dos números é zero
